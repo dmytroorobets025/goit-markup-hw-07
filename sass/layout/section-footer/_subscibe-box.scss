@@ -37,24 +37,24 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus,
+    &:active {
+        border: 1px solid var(--accent-color);
+        caret-color: var(--primary-text-color);
+        color: var(--color-white);
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .subscribe-email::placeholder {
     color: rgba(255, 255, 255, 0.6);
-}
-
-.subscribe-email:hover,
-.subscribe-email:focus,
-.subscribe-email:active {
-    border: 1px solid var(--accent-color);
-    caret-color: var(--primary-text-color);
-    color: var(--color-white);
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription-button {
@@ -79,19 +79,20 @@
     transform: scale(1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.subscription-button:hover,
-.subscription-button:focus,
-.subscription-button:active {
-    background: rgba(33, 150, 243, 0);
-    color: var(--accent-color);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    transform: scale(1.1);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &:hover,
+    &:focus,
+    &:active {
+        background: rgba(33, 150, 243, 0);
+        color: var(--accent-color);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+        transform: scale(1.1);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+
+}
 .icon-send {
     display: inline-block;
     fill: currentColor;

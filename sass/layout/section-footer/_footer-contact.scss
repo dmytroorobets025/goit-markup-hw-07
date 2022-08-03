@@ -6,6 +6,8 @@
     margin-top: 20px;
 }
 
+
+
 .address-item .address-sity {
     display: flex;
     align-items: center;
@@ -26,16 +28,17 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--primary-section-fon);
+        color: var(--accent-color);
+
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
-.contacts:hover,
-.contacts:focus {
-    background-color: var(--primary-section-fon);
-    color: var(--accent-color);
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .footef-addres-box {
     margin-right: 70px;

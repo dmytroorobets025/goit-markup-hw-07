@@ -24,27 +24,28 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.company-hover:hover,
-.company-hover:focus {
-    cursor: pointer;
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-    border-radius: 4px;
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+        border-radius: 4px;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
 }
 
 .color-customers {
     fill: currentColor;
-}
 
-.color-customers:hover,
-.color-customers:focus {
-    fill: var(--accent-color);
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }

@@ -1,8 +1,14 @@
 .section {
     padding: 94px 0;
     background: var(--color-white);
+
+    &-portfolio {
+        padding: 94px 0;
+    }
 }
 
-.section-portfolio {
+.section-team {
     padding: 94px 0;
+
+    background-color: #f5f4fa;
 }
