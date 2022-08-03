@@ -1,0 +1,99 @@
+.subscribe-box {
+    margin-left: auto;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+
+    color: var(--color-white);
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe-email {
+    outline: transparent;
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 15px 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-email::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-email:hover,
+.subscribe-email:focus,
+.subscribe-email:active {
+    border: 1px solid var(--accent-color);
+    caret-color: var(--primary-text-color);
+    color: var(--color-white);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    min-width: 200px;
+    padding: 10px 28px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: #ffffff;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 4px;
+
+    transform: scale(1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription-button:hover,
+.subscription-button:focus,
+.subscription-button:active {
+    background: rgba(33, 150, 243, 0);
+    color: var(--accent-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-send {
+    display: inline-block;
+    fill: currentColor;
+    margin-left: 10px;
+}

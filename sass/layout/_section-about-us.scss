@@ -1,0 +1,40 @@
+.about-us-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.about-us {
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.about-us-txt {
+    margin-top: 10px;
+
+    line-height: 1.7;
+}
+
+.about {
+    padding-bottom: 0;
+}
+
+.content-box {
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.svg-about-us {
+    width: 270px;
+    height: 120px;
+    background-color: var(--decoration-background);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.icon-about-us {
+    margin: 25px 100px;
+}

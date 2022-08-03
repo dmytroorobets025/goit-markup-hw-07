@@ -1,0 +1,44 @@
+.page-header {
+    background-color: var(--color-white);
+    border-bottom: 1px solid #ececec;
+
+    padding: 0;
+}
+
+.head-box {
+    display: flex;
+    align-items: center;
+}
+
+.head-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover,
+.logo:focus {
+    transform: scale(1.5);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
