@@ -1,13 +1,17 @@
-.auth-nav .nav-item+.nav-item {
+.contact .navigation__item+.navigation__item {
     margin-left: 50px;
 }
 
-.auth-nav {
+.contact .contact__item+.contact__item {
+    margin-left: 50px;
+}
+
+.contact {
     display: flex;
     margin-left: auto;
 }
 
-.contact-link {
+.contact__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,14 +35,14 @@
     }
 }
 
-.nav-item {
+.navigation__item {
     display: flex;
     align-items: center;
+}
 
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
+.navigation__item:hover,
+.navigation__item:focus {
+    color: var(--accent-color);
 }
 
 .envelope {

@@ -1,34 +1,33 @@
-.about-us-list {
+.about-us {
+    padding-bottom: 0;
+}
+
+.about-us__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
-.about {
-    padding-bottom: 0;
-
-    &-us {
-        line-height: 1.14;
-        text-transform: uppercase;
-        font-size: 14px;
-
-        &-txt {
-            margin-top: 10px;
-
-            line-height: 1.7;
-        }
-
-    }
+.about-us__title {
+line-height: 1.14;    
+text-transform: uppercase;
+font-size: 14px;
 }
 
-.content-box {
+.about-us__text {
+margin-top: 10px;
+line-height: 1.7;
+
+}
+
+.about-us__box {
     max-width: 270px;
     display: flex;
     flex-direction: column;
 }
 
-.svg-about-us {
+.about-us__backraund {
     width: 270px;
     height: 120px;
     background-color: var(--decoration-background);
@@ -36,6 +35,6 @@
     border-radius: 4px;
 }
 
-.icon-about-us {
+.about-us__icon {
     margin: 25px 100px;
 }
