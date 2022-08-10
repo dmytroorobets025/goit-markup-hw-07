@@ -26,7 +26,19 @@
           <a class="logo" href="./index.html">
             <span class="header__logo">Web</span>Studio</a
           >
-          <nav class="navigation">
+          <button class="mobile-navigation" type="button">
+            <svg class="mobile-navicon" width="40px" height="40px">
+              <use
+                class="mobile-navigation-menu"
+                href="./images/icon.svg/sprite.svg#mobile-icon"
+              ></use>
+              <use
+                class="mobile-nav__icon-close"
+                href="./images/icon.svg/sprite.svg#mobile-icon-close"
+              ></use>
+            </svg>
+          </button>
+          <!-- <nav class="navigation">
             <ul class="navigation__list">
               <li class="navigation__item">
                 <a href="./index.html" class="navigation__link current"
@@ -42,11 +54,11 @@
                 <a href="#" class="navigation__link">Контакти</a>
               </li>
             </ul>
-          </nav>
-          <ul class="contact">
+          </nav> -->
+          <!-- <ul class="contact">
             <li class="contact__item">
               <a
-                class="contact__link imail-nav"
+                class="contact__link"
                 href="mailto:info@devstudio.com"
                 target="_blank"
                 rel="noopener nofollow noreferrer"
@@ -59,7 +71,7 @@
             </li>
             <li class="contact__item">
               <a
-                class="contact__link telf-nav"
+                class="contact__link"
                 href="tel:+380961111111"
                 target="_blank"
                 rel="noopener nofollow noreferrer"
@@ -72,11 +84,10 @@
                 +38 096 111 11 11</a
               >
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </header>
-    <!-- Section 1 -->
     <main class="general">
       <section class="section-hero img-bgr-hero">
         <div class="container">
@@ -86,7 +97,6 @@
           </button>
         </div>
       </section>
-      <!-- Section 2 -->
       <section class="section">
         <div class="container about-us">
           <h2 class="visually-hidden">Про Нас</h2>
@@ -142,8 +152,7 @@
           </ul>
         </div>
       </section>
-      <!-- Section 3 -->
-      <section class="section">
+      <section class="section works">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="title-images">
@@ -183,12 +192,9 @@
           </ul>
         </div>
       </section>
-
-      <!-- Section 4 -->
-      <section class="section-team">
+      <!-- <section class="section-team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <!-- Team -->
           <ul class="team-box">
             <li class="team-element">
               <img
@@ -424,8 +430,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section">
+      </section> -->
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
           <ul class="regular-customers">
@@ -479,10 +485,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-box">
           <div class="footef-addres-box">
@@ -592,8 +597,8 @@
           </div>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal" data-box>
         <button
           class="button-back"
@@ -682,7 +687,7 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
   </body>
 </html>

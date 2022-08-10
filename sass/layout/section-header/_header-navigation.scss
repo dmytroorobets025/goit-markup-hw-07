@@ -111,3 +111,16 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-navigation {
+    display: inline-flex;
+    margin-left: auto;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: inherit;
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+}
+
